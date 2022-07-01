@@ -24,32 +24,30 @@ limitations under the License.
 
 > Half-precision floating-point mathematical constants.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-float16
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-constants = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.constants;
-})();
-</script>
+var constants = require( '@stdlib/constants-float16' );
 ```
 
 #### constants
@@ -95,21 +93,11 @@ var c = constants;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var constants = require( '@stdlib/constants-float16' );
 
 console.log( objectKeys( constants ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -189,36 +177,37 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/constants-float16/tree/deno
 [umd-url]: https://github.com/stdlib-js/constants-float16/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-float16/tree/esm
+[branches-url]: https://github.com/stdlib-js/constants-float16/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-float16/main/LICENSE
 
 <!-- <toc-links> -->
 
-[@stdlib/constants/float16/cbrt-eps]: https://github.com/stdlib-js/constants-float16-cbrt-eps/tree/umd
+[@stdlib/constants/float16/cbrt-eps]: https://github.com/stdlib-js/constants-float16-cbrt-eps
 
-[@stdlib/constants/float16/eps]: https://github.com/stdlib-js/constants-float16-eps/tree/umd
+[@stdlib/constants/float16/eps]: https://github.com/stdlib-js/constants-float16-eps
 
-[@stdlib/constants/float16/exponent-bias]: https://github.com/stdlib-js/constants-float16-exponent-bias/tree/umd
+[@stdlib/constants/float16/exponent-bias]: https://github.com/stdlib-js/constants-float16-exponent-bias
 
-[@stdlib/constants/float16/max-safe-integer]: https://github.com/stdlib-js/constants-float16-max-safe-integer/tree/umd
+[@stdlib/constants/float16/max-safe-integer]: https://github.com/stdlib-js/constants-float16-max-safe-integer
 
-[@stdlib/constants/float16/max]: https://github.com/stdlib-js/constants-float16-max/tree/umd
+[@stdlib/constants/float16/max]: https://github.com/stdlib-js/constants-float16-max
 
-[@stdlib/constants/float16/min-safe-integer]: https://github.com/stdlib-js/constants-float16-min-safe-integer/tree/umd
+[@stdlib/constants/float16/min-safe-integer]: https://github.com/stdlib-js/constants-float16-min-safe-integer
 
-[@stdlib/constants/float16/ninf]: https://github.com/stdlib-js/constants-float16-ninf/tree/umd
+[@stdlib/constants/float16/ninf]: https://github.com/stdlib-js/constants-float16-ninf
 
-[@stdlib/constants/float16/num-bytes]: https://github.com/stdlib-js/constants-float16-num-bytes/tree/umd
+[@stdlib/constants/float16/num-bytes]: https://github.com/stdlib-js/constants-float16-num-bytes
 
-[@stdlib/constants/float16/pinf]: https://github.com/stdlib-js/constants-float16-pinf/tree/umd
+[@stdlib/constants/float16/pinf]: https://github.com/stdlib-js/constants-float16-pinf
 
-[@stdlib/constants/float16/precision]: https://github.com/stdlib-js/constants-float16-precision/tree/umd
+[@stdlib/constants/float16/precision]: https://github.com/stdlib-js/constants-float16-precision
 
-[@stdlib/constants/float16/smallest-normal]: https://github.com/stdlib-js/constants-float16-smallest-normal/tree/umd
+[@stdlib/constants/float16/smallest-normal]: https://github.com/stdlib-js/constants-float16-smallest-normal
 
-[@stdlib/constants/float16/smallest-subnormal]: https://github.com/stdlib-js/constants-float16-smallest-subnormal/tree/umd
+[@stdlib/constants/float16/smallest-subnormal]: https://github.com/stdlib-js/constants-float16-smallest-subnormal
 
-[@stdlib/constants/float16/sqrt-eps]: https://github.com/stdlib-js/constants-float16-sqrt-eps/tree/umd
+[@stdlib/constants/float16/sqrt-eps]: https://github.com/stdlib-js/constants-float16-sqrt-eps
 
 <!-- </toc-links> -->
 
