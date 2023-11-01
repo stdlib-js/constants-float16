@@ -51,12 +51,12 @@
     "@stdlib/utils-define-read-only-property": "^0.1.1"
   },
   "devDependencies": {
-    "@stdlib/math-base-special-abs": "^0.1.0",
-    "@stdlib/math-base-special-cbrt": "^0.1.0",
+    "@stdlib/math-base-special-abs": "^0.1.1",
+    "@stdlib/math-base-special-cbrt": "^0.1.1",
     "@stdlib/math-base-special-maxabs": "^0.1.0",
     "@stdlib/math-base-special-pow": "^0.1.0",
     "@stdlib/math-base-special-round": "^0.1.1",
-    "@stdlib/math-base-special-sqrt": "^0.1.0",
+    "@stdlib/math-base-special-sqrt": "^0.1.1",
     "@stdlib/number-ctor": "^0.1.1",
     "@stdlib/random-base-randu": "^0.1.0",
     "@stdlib/utils-keys": "^0.1.0",
