@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16/tags). For example,
+
+```javascript
 import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { CBRT_EPS, EPS, EXPONENT_BIAS, MAX, MAX_SAFE_INTEGER, MIN_SAFE_INTEGER, NINF, NUM_BYTES, PINF, PRECISION, SMALLEST_NORMAL, SMALLEST_SUBNORMAL, SQRT_EPS } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16@v0.2.1-deno/mod.js';
+import { CBRT_EPS, EPS, EXPONENT_BIAS, MAX, MAX_SAFE_INTEGER, MIN_SAFE_INTEGER, NINF, NUM_BYTES, PINF, PRECISION, SMALLEST_NORMAL, SMALLEST_SUBNORMAL, SQRT_EPS } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16@deno/mod.js';
 ```
 
 #### constants
@@ -96,7 +101,7 @@ var c = constants;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16@v0.2.1-deno/mod.js';
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16@deno/mod.js';
 
 console.log( objectKeys( constants ) );
 ```
