@@ -4,9 +4,33 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-30)
+## Unreleased (2025-06-02)
 
-No changes reported for this release.
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`2e8998e`](https://github.com/stdlib-js/stdlib/commit/2e8998ee67be12caff9a99df3ba3256c55b167a2) - **chore:** update test messages in `constants/float16` [(#6774)](https://github.com/stdlib-js/stdlib/pull/6774) _(by Harsh)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Harsh
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -36,27 +60,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -73,6 +76,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -92,489 +108,15 @@ No changes reported for this release.
 
 ## 0.1.0 (2023-09-22)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="constants-float16-v0.1.0">
-
-#### [@stdlib/constants/float16](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float16)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="constants-float16-cbrt-eps-v0.1.0">
-
-#### [@stdlib/constants/float16/cbrt-eps](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float16/cbrt-eps)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="constants-float16-eps-v0.1.0">
-
-#### [@stdlib/constants/float16/eps](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float16/eps)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="constants-float16-exponent-bias-v0.1.0">
-
-#### [@stdlib/constants/float16/exponent-bias](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float16/exponent-bias)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="constants-float16-max-v0.1.0">
-
-#### [@stdlib/constants/float16/max](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float16/max)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="constants-float16-max-safe-integer-v0.1.0">
-
-#### [@stdlib/constants/float16/max-safe-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float16/max-safe-integer)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="constants-float16-min-safe-integer-v0.1.0">
-
-#### [@stdlib/constants/float16/min-safe-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float16/min-safe-integer)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="constants-float16-ninf-v0.1.0">
-
-#### [@stdlib/constants/float16/ninf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float16/ninf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="constants-float16-num-bytes-v0.1.0">
-
-#### [@stdlib/constants/float16/num-bytes](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float16/num-bytes)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="constants-float16-pinf-v0.1.0">
-
-#### [@stdlib/constants/float16/pinf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float16/pinf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="constants-float16-precision-v0.1.0">
-
-#### [@stdlib/constants/float16/precision](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float16/precision)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="constants-float16-smallest-normal-v0.1.0">
-
-#### [@stdlib/constants/float16/smallest-normal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float16/smallest-normal)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="constants-float16-smallest-subnormal-v0.1.0">
-
-#### [@stdlib/constants/float16/smallest-subnormal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float16/smallest-subnormal)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="constants-float16-sqrt-eps-v0.1.0">
-
-#### [@stdlib/constants/float16/sqrt-eps](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/constants/float16/sqrt-eps)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`56e6edf`](https://github.com/stdlib-js/stdlib/commit/56e6edfcdf0dda1a348a92a67378729861cf24e1): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -587,18 +129,6 @@ No changes reported for this release.
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -617,6 +147,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
