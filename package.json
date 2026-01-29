@@ -48,7 +48,8 @@
     "@stdlib/constants-float16-smallest-normal": "^0.2.2",
     "@stdlib/constants-float16-smallest-subnormal": "^0.2.2",
     "@stdlib/constants-float16-sqrt-eps": "^0.2.2",
-    "@stdlib/utils-define-read-only-property": "^0.2.2"
+    "@stdlib/utils-define-read-only-property": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/constants-float16-pi": "^0.1.0",
