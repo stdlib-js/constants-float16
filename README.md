@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16/tags). For example,
+
+```javascript
 import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16@v0.3.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { CBRT_EPS, EPS, EXPONENT_BIAS, MAX, MAX_SAFE_INTEGER, MIN_SAFE_INTEGER, NINF, NUM_BYTES, PINF, PRECISION, SMALLEST_NORMAL, SMALLEST_SUBNORMAL, SQRT_EPS } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16@v0.3.1-esm/index.mjs';
+import { CBRT_EPS, EPS, EXPONENT_BIAS, MAX, MAX_SAFE_INTEGER, MIN_SAFE_INTEGER, NINF, NUM_BYTES, PINF, PRECISION, SMALLEST_NORMAL, SMALLEST_SUBNORMAL, SQRT_EPS } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16@esm/index.mjs';
 ```
 
 #### constants
@@ -101,7 +106,7 @@ var c = constants;
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16@v0.3.1-esm/index.mjs';
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16@esm/index.mjs';
 
 console.log( objectKeys( constants ) );
 
