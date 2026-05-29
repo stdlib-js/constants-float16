@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-20)
+## Unreleased (2026-05-29)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`0955e33`](https://github.com/stdlib-js/stdlib/commit/0955e33c604c44b355a19de7bfce761869922d96) - **style:** add missing section comments [(#12158)](https://github.com/stdlib-js/stdlib/pull/12158) _(by Philipp Burckhardt)_
+-   [`e67e59e`](https://github.com/stdlib-js/stdlib/commit/e67e59e60a49c76c8feeafc3c400d29d477b679f) - **docs:** add missing period and align keywords in `constants/float16` [(#11849)](https://github.com/stdlib-js/stdlib/pull/11849) _(by Philipp Burckhardt)_
 -   [`3422651`](https://github.com/stdlib-js/stdlib/commit/3422651a3ec2e6717f25d82020a62f00dbe2aa78) - **docs:** add missing section closing comments in READMEs _(by Philipp Burckhardt)_
 
 </details>
