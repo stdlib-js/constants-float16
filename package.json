@@ -65,6 +65,7 @@
     "@stdlib/math-base-special-sqrt": "^0.2.3",
     "@stdlib/math-base-special-sqrtf": "^0.2.3",
     "@stdlib/number-ctor": "^0.2.3",
+    "@stdlib/number-float16-base-assert-is-almost-same-value": "github:stdlib-js/number-float16-base-assert-is-almost-same-value#main",
     "@stdlib/number-float16-base-from-word": "^0.2.1",
     "@stdlib/number-float16-base-to-word": "^0.1.1",
     "@stdlib/number-float64-base-to-float16": "^0.1.2",

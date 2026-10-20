@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-13)
+## Unreleased (2026-10-20)
 
 <section class="commits">
 
@@ -12,6 +12,10 @@
 
 <details>
 
+-   [`cd798a3`](https://github.com/stdlib-js/stdlib/commit/cd798a391f5286cd335e4bd342d3d5229fc80dec) - **test:** migrate `constants/float16/ln-half` to ULP-based assertions [(#16173)](https://github.com/stdlib-js/stdlib/pull/16173) _(by Athan Reines)_
+-   [`71017b3`](https://github.com/stdlib-js/stdlib/commit/71017b38fb05a0008d1e777e80904349653d5787) - **test:** migrate `constants/float16/pi-squared` to ULP-based assertions [(#16170)](https://github.com/stdlib-js/stdlib/pull/16170) _(by Athan Reines)_
+-   [`1a081e7`](https://github.com/stdlib-js/stdlib/commit/1a081e7655c4fab2d9eee0ab960b9118cbc6813f) - **test:** migrate `constants/float16/ln-ten` to ULP-based assertions [(#16130)](https://github.com/stdlib-js/stdlib/pull/16130) _(by Athan Reines)_
+-   [`770dfe9`](https://github.com/stdlib-js/stdlib/commit/770dfe9ef28a41c76ef00db1fc5ef35b7572680a) - **test:** migrate `constants/float16/half-ln-two` to ULP-based assertions [(#16120)](https://github.com/stdlib-js/stdlib/pull/16120) _(by Athan Reines)_
 -   [`46e0a1a`](https://github.com/stdlib-js/stdlib/commit/46e0a1a70a6d6677bc1c85fb16a5cf666880391b) - **docs:** add asm type annotations [(#13915)](https://github.com/stdlib-js/stdlib/pull/13915) _(by Philipp Burckhardt)_
 -   [`0955e33`](https://github.com/stdlib-js/stdlib/commit/0955e33c604c44b355a19de7bfce761869922d96) - **style:** add missing section comments [(#12158)](https://github.com/stdlib-js/stdlib/pull/12158) _(by Philipp Burckhardt)_
 -   [`e67e59e`](https://github.com/stdlib-js/stdlib/commit/e67e59e60a49c76c8feeafc3c400d29d477b679f) - **docs:** add missing period and align keywords in `constants/float16` [(#11849)](https://github.com/stdlib-js/stdlib/pull/11849) _(by Philipp Burckhardt)_
@@ -27,8 +31,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 
 </section>
